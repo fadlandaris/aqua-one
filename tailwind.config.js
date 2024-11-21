@@ -1,15 +1,16 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
-      colors: {
-        primary: "",
-        secondary: "",
-      },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        body: ["'Manrope'", "sans-serif"],    
+      },
+      colors: {
+        primary: '#4c8fb6',
+        text: '#7c8698',
+        lightBlack: "#1e1e1e",
+        lightgray: '#f4f7fa',
       },
     },
     screens: {
